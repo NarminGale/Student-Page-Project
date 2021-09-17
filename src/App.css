@@ -1,0 +1,6 @@
+.students-container {
+  margin: 2rem 6rem;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 2.4rem;
+}

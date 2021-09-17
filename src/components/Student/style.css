@@ -1,0 +1,54 @@
+article {
+  /* border: 1px solid black; */
+  flex: 0 1 300px;
+  box-shadow: -2px 3px 14px 0px rgba(0, 0, 0, 0.3);
+  transition: transform 0.2s;
+  cursor: auto;
+  border-radius: 0.4rem;
+  overflow: hidden;
+  backface-visibility: hidden;
+}
+
+article:hover {
+  transform: scale(1.05);
+}
+
+.student-image {
+  width: 100%;
+  height: 240px;
+}
+
+.student-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.student-info {
+  padding: 0 1.2rem;
+}
+
+.student-about {
+  max-height: 4.9rem;
+  overflow-y: hidden;
+  text-align: center;
+  letter-spacing: 0.02rem;
+  color: #333;
+}
+
+.student-name {
+  color: #333;
+  text-align: center;
+  font-size: 1.6rem;
+  margin: 1rem auto 0.6rem;
+  text-transform: capitalize;
+}
+
+.student-job {
+  text-align: center;
+  display: block;
+  color: #666;
+  text-transform: capitalize;
+  font-style: italic;
+}
