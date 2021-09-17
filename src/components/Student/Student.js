@@ -14,6 +14,9 @@ function Student(props) {
           <span className="student-job">{props.job}</span>
           <p className="student-about">{props.text}</p>
         </div>
+        <a type="button" className="open-btn">
+          open profile
+        </a>
       </article>
     </>
   )
