@@ -86,6 +86,7 @@ article:hover {
   );
   transition: transform 0.2s linear;
   backface-visibility: hidden;
+  text-decoration: none;
 }
 
 .open-btn:hover {

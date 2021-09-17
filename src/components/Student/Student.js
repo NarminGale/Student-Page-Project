@@ -1,6 +1,8 @@
 import React from 'react'
 import './style.css'
 
+import { Link } from 'react-router-dom'
+
 function Student(props) {
   return (
     <>
@@ -14,9 +16,9 @@ function Student(props) {
           <span className="student-job">{props.job}</span>
           <p className="student-about">{props.text}</p>
         </div>
-        <a type="button" className="open-btn">
+        <Link to={`student-details/${props.id}`} className="open-btn">
           open profile
-        </a>
+        </Link>
       </article>
     </>
   )
