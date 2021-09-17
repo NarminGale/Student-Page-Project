@@ -11,7 +11,7 @@ article {
 }
 
 article:hover {
-  transform: scale(1.06) translateY(-1rem);
+  transform: scale(1.06) translateY(-0.1rem);
   box-shadow: -2px 3px 14px 0px rgba(0, 0, 0, 0.4);
 }
 
