@@ -1,6 +1,9 @@
 h1 {
-  font-size: 2.4rem;
+  color: #1d1a75;
+  font-size: 2.6rem;
   text-align: center;
   margin-top: 3rem;
   margin-bottom: 3rem;
+  letter-spacing: 0.3rem;
+  font-style: italic;
 }
