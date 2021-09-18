@@ -1,0 +1,9 @@
+.student-details .container {
+  padding: 6rem 1rem;
+}
+.student-details .container .boxes {
+  margin-top: 5rem;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}

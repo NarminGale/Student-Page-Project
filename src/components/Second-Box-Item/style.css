@@ -1,0 +1,4 @@
+.second-box-item:not(:last-child) {
+  border-bottom: 1px solid #c2c3c4;
+  padding-bottom: 0.68rem;
+}

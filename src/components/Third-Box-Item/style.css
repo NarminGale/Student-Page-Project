@@ -1,0 +1,25 @@
+.contact {
+  display: flex;
+  align-items: center;
+}
+
+.contact:not(:last-child) {
+  border-bottom: 1px solid #c2c3c4;
+  padding-bottom: 0.6rem;
+  margin-bottom: 1rem;
+}
+
+.contact-icon {
+  color: #434eaf;
+  font-size: 1.4rem;
+  width: 28px;
+}
+.contact p {
+  margin-bottom: 0;
+  margin-left: 12px;
+}
+.contact p a {
+  color: currentColor;
+  text-decoration: none;
+  vertical-align: middle;
+}
