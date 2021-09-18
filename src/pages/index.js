@@ -1,4 +1,5 @@
 import React from 'react'
+import './StudentDetails.css'
 // react router
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
 
