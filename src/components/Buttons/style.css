@@ -38,3 +38,12 @@
   box-shadow: none;
   border-color: inherit;
 }
+
+.btn-form-save {
+  margin-left: auto;
+  background: #0A66C2;
+  color: #FFF;
+  padding: 5px 20px;
+  border-radius: 30px;
+  border: 1px solid #0A66C2;
+}

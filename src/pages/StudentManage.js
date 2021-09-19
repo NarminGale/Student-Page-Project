@@ -1,37 +1,37 @@
-import React from 'react'
-import { useState, useEffect } from 'react'
-import { Link, useParams } from 'react-router-dom'
-import ProfileAbout from '../components/Profile-About/ProfileAbout'
-import ProfileHead from '../components/Profile-Head/ProfileHead'
-import FirstBoxEdit from '../components/First-Box/FirstBoxEdit'
-import ExperienceBoxItem from '../components/Experience-Box-Item/ExperienceBoxItem'
-import EducationBoxItem from '../components/Education-Box-Item/EducationBoxItem'
-import SecondBoxItem from '../components/Second-Box-Item/SecondBoxItem'
-import ThirdBoxItem from '../components/Third-Box-Item/ThirdBoxItem'
+import React from "react";
+import { useState, useEffect } from "react";
+import { Link, useParams } from "react-router-dom";
+import ProfileAbout from "../components/Profile-About/ProfileAbout";
+import ProfileHead from "../components/Profile-Head/ProfileHead";
+import FirstBoxEdit from "../components/First-Box/FirstBoxEdit";
+import ExperienceBoxItem from "../components/Experience-Box-Item/ExperienceBoxItem";
+import EducationBoxItem from "../components/Education-Box-Item/EducationBoxItem";
+import SecondBoxItem from "../components/Second-Box-Item/SecondBoxItem";
+import ThirdBoxItem from "../components/Third-Box-Item/ThirdBoxItem";
 
-import EditButton from '../components/Buttons/EditButton'
-import AddButton from '../components/Buttons/AddButton'
-import TrashButton from '../components/Buttons/TrashButton'
-import UserEditButton from '../components/Buttons/UserEditButton'
-import students from '../data'
-import './StudentDetails.css'
+import EditButton from "../components/Buttons/EditButton";
+import AddButton from "../components/Buttons/AddButton";
+import TrashButton from "../components/Buttons/TrashButton";
+import UserEditButton from "../components/Buttons/UserEditButton";
+import students from "../data";
+import "./StudentDetails.css";
 
 function StudentManage() {
-  const { id } = useParams()
-  const [name, setName] = useState('')
-  const [job, setJob] = useState('')
-  const [image, setImage] = useState(null)
-  const [about, setAbout] = useState('')
+  const { id } = useParams();
+  const [name, setName] = useState("");
+  const [job, setJob] = useState("");
+  const [image, setImage] = useState(null);
+  const [about, setAbout] = useState("");
 
   useEffect(() => {
-    const newPerson = students.find((student) => student.id === parseInt(id))
-    console.log(id)
+    const newPerson = students.find((student) => student.id === parseInt(id));
+    console.log(id);
     // console.log(student.id)
-    setName(newPerson.name)
-    setJob(newPerson.job)
-    setImage(newPerson.image)
-    setAbout(newPerson.text)
-  }, [])
+    setName(newPerson.name);
+    setJob(newPerson.job);
+    setImage(newPerson.image);
+    setAbout(newPerson.text);
+  }, []);
 
   return (
     <div className="student-details">
@@ -87,7 +87,7 @@ function StudentManage() {
         </div>
       </div>
     </div>
-  )
+  );
 }
 
-export default StudentManage
+export default StudentManage;
