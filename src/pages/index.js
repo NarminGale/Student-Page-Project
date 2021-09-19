@@ -14,10 +14,8 @@ function ReactRouter() {
         <Route exact path="/">
           <Students />
         </Route>
-        <Route
-          path="/student-details/:id"
-          children={<StudentDetails />}></Route>
-        <Route path="/student-manage">
+        <Route exact path="/student/:id" children={<StudentDetails />}></Route>
+        <Route exact path="/student/:id/edit">
           <StudentManage />
         </Route>
         <Route path="*">

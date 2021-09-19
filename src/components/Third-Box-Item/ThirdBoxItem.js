@@ -1,15 +1,20 @@
 import React from 'react'
 import './style.css'
+
+import EditButton from '../Buttons/EditButton'
 function ThirdBoxItem(props) {
   return (
     <>
       <div className="contact">
-        <div className="contact-icon">
-          <i class={props.icon}></i>
+        <div className="contact-left">
+          <div className="contact-icon">
+            <i class={props.icon}></i>
+          </div>
+          <p>
+            <a href="#"> {props.path}</a>
+          </p>
         </div>
-        <p>
-          <a href="#"> {props.path}</a>
-        </p>
+        <div className="contact-right">{props.children}</div>
       </div>
     </>
   )

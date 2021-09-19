@@ -18,6 +18,16 @@
   margin-bottom: 0;
 }
 
+.first-box-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.first-box-left {
+  display: flex;
+}
+
 .item-right {
   flex: 1;
   padding-bottom: 1rem;

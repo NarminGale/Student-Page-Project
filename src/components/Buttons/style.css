@@ -1,0 +1,40 @@
+.modal-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 0.2px solid lightgray;
+  padding: 1rem 2rem 0.6rem;
+  font-weight: 400;
+}
+
+.modal-title h4 {
+  font-weight: 400;
+  font-size: 1.4rem;
+  margin-bottom: 0;
+}
+
+.modal-box-content {
+  padding: 1rem 2rem;
+}
+
+.modal-box-content h6 {
+  font-size: 1.4rem;
+}
+
+.modal-box-content form label {
+  color: #7e7c7c;
+  margin-bottom: 0.1rem;
+}
+
+.modal-box-content form input[type='text'],
+.modal-box-content form select {
+  border: 1px solid gray;
+  margin-bottom: 1rem;
+}
+
+.modal-box-content form select:focus,
+.modal-box-content form input[type='text']:focus {
+  outline: none;
+  box-shadow: none;
+  border-color: inherit;
+}

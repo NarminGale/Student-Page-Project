@@ -1,4 +1,16 @@
-.second-box-item:not(:last-child) {
+.second-box:not(:last-child) {
   border-bottom: 1px solid #c2c3c4;
   padding-bottom: 0.68rem;
+}
+.second-box:not(:first-child) {
+  padding-top: 0.6rem;
+}
+.second-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.second-box-item {
+  margin-bottom: 0;
 }

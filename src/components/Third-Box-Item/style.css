@@ -1,6 +1,12 @@
 .contact {
   display: flex;
   align-items: center;
+  justify-content: space-between;
+}
+
+.contact-left {
+  display: flex;
+  align-items: center;
 }
 
 .contact:not(:last-child) {

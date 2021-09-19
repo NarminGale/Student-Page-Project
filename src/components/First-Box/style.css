@@ -7,11 +7,19 @@
 .box-title {
   display: flex;
   justify-content: space-between;
-  margin-bottom: 1rem;
+  align-items: center;
+  margin-bottom: 2rem;
+  height: 24px;
+}
+
+.box-title h4 {
+  margin-bottom: 0;
 }
 
 .add-button {
   background: transparent;
   border: none;
-  display: none;
+  color: #434eaf;
+  font-size: 1.4rem;
+  /* display: none; */
 }

@@ -16,7 +16,7 @@ function Student(props) {
           <span className="student-job">{props.job}</span>
           <p className="student-about">{props.text}</p>
         </div>
-        <Link to={`student-details/${props.id}`} className="open-btn">
+        <Link to={`student/${props.id}`} className="open-btn">
           open profile
         </Link>
       </article>
