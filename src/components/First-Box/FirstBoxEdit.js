@@ -8,9 +8,9 @@ function FirstBoxEdit(props) {
       <div className="first-box glass-div">
         <div className="box-title">
           <h4>{props.title}</h4>
-          <AddButton />
+          <AddButton title={props.modalTitle}>{props.children[0]}</AddButton>
         </div>
-        <div className="box-content">{props.children}</div>
+        <div className="box-content">{props.children[1]}</div>
       </div>
     </>
   )

@@ -5,6 +5,11 @@
   border-bottom: 0.2px solid lightgray;
   padding: 1rem 2rem 0.6rem;
   font-weight: 400;
+  position: sticky;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: inherit;
 }
 
 .modal-title h4 {
@@ -39,11 +44,16 @@
   border-color: inherit;
 }
 
+.modal-box-content form .form-check {
+  margin-top: 1.6rem;
+  margin-bottom: 0.6rem;
+}
+
 .btn-form-save {
   margin-left: auto;
-  background: #0A66C2;
-  color: #FFF;
+  background: #0a66c2;
+  color: #fff;
   padding: 5px 20px;
   border-radius: 30px;
-  border: 1px solid #0A66C2;
+  border: 1px solid #0a66c2;
 }
