@@ -18,7 +18,6 @@ function StudentDetails() {
   const [job, setJob] = useState('')
   const [image, setImage] = useState(null)
   const [about, setAbout] = useState('')
-
   useEffect(() => {
     const newPerson = students.find((student) => student.id === parseInt(id))
     console.log(id)
